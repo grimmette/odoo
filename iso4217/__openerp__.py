@@ -6,8 +6,8 @@
 {
     'name': 'Codes and full name of currencies ISO 4217',
     'version': '1.1',
-    'summary': 'Codes and full name of the currencies - ISO 4217',
-    'category': 'Localization/Account Charts',
+    'summary': '',
+    'category': 'Accounting & Finance',
     'description': """
 Codes and full name of the currencies - ISO 4217.
 
