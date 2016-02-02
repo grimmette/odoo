@@ -1,1 +1,1 @@
-# odoo addons
+# odoo custom-addons
