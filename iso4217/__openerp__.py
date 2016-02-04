@@ -4,7 +4,7 @@
 # Copyright (C) 2015 GRIMMETTE,LLC <info@grimmette.com>
 
 {
-    'name': 'Codes and full name of currencies ISO 4217',
+    'name': 'Codes and Full Names of Currencies ISO 4217',
     'version': '1.1',
     'summary': '',
     'category': 'Accounting & Finance',
