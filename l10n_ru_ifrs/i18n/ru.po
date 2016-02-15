@@ -28,7 +28,7 @@ msgstr "Россия МСФО"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_ru_ifrs
 msgid "Russia - Accounting IFRS"
-msgstr "Россия -Бухгалтерской учет МСФО"
+msgstr "Россия - Бухгалтерской учет МСФО"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_ru_ifrs
