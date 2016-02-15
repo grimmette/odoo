@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+
+    <!-- Tax Definitions -->
+    <record id="tax_tag_purchase_10" model="account.account.tag">
+        <field name="name">НДС 10% Покупка</field>
+        <field name="applicability">taxes</field>
+    </record>
+    <record id="tax_tag_purchase_18" model="account.account.tag">
+        <field name="name">НДС 18% Покупка</field>
+        <field name="applicability">taxes</field>
+    </record>
+    <record id="tax_tag_sale_10" model="account.account.tag">
+        <field name="name">НДС 10% Продажа</field>
+        <field name="applicability">taxes</field>
+    </record>
+    <record id="tax_tag_sale_18" model="account.account.tag">
+        <field name="name">НДС 18% Продажа</field>
+        <field name="applicability">taxes</field>
+    </record>
+  
+    <!-- account.tax.template -->
+    <!-- for purchase -->
+    <record id="tax_purchase_vat10" model="account.tax.template">
+        <field name="chart_template_id" ref="l10n_ru_ifrs_chart_template"/>
+        <field name="name">НДС 10% Покупка</field>
+        <field name="description">НДС 10%</field>
+        <field name="amount" eval="10"/>
+        <field name="amount_type">percent</field>
+        <field name="account_id" ref="ru_ifrs_2219"/>
+        <field name="refund_account_id" ref="ru_ifrs_2219"/>
+        <field name="price_include" eval="1"/>	
+        <field name="type_tax_use">purchase</field>
+        <field name="tag_ids" eval="[(6,0,[ref('tax_tag_purchase_10')])]"/>
+    </record>
+    <record id="tax_purchase_vat18" model="account.tax.template">
+        <field name="chart_template_id" ref="l10n_ru_ifrs_chart_template"/>
+        <field name="name">НДС 18% Покупка</field>
+        <field name="description">НДС 18%</field>
+        <field name="amount" eval="18"/>
+        <field name="amount_type">percent</field>
+        <field name="account_id" ref="ru_ifrs_2219"/>
+        <field name="refund_account_id" ref="ru_ifrs_2219"/>
+        <field name="price_include" eval="1"/>	
+        <field name="type_tax_use">purchase</field>
+        <field name="tag_ids" eval="[(6,0,[ref('tax_tag_purchase_18')])]"/>
+    </record>
+    
+    <!-- for sale -->
+    <record id="tax_sale_vat10" model="account.tax.template">
+        <field name="chart_template_id" ref="l10n_ru_ifrs_chart_template"/>
+        <field name="name">НДС 10% Продажа</field>
+        <field name="description">НДС 10%</field>
+        <field name="amount" eval="10"/>
+        <field name="amount_type">percent</field>
+        <field name="account_id" ref="ru_ifrs_2268"/>
+        <field name="refund_account_id" ref="ru_ifrs_2268"/>
+        <field name="price_include" eval="1"/>		
+        <field name="type_tax_use">sale</field>
+        <field name="tag_ids" eval="[(6,0,[ref('tax_tag_sale_10')])]"/>
+    </record>
+    <record id="tax_sale_vat18" model="account.tax.template">
+        <field name="chart_template_id" ref="l10n_ru_ifrs_chart_template"/>
+        <field name="name">НДС 18% Продажа</field>
+        <field name="description">НДС 18%</field>
+        <field name="amount" eval="18"/>
+        <field name="amount_type">percent</field>
+        <field name="account_id" ref="ru_ifrs_2268"/>
+        <field name="refund_account_id" ref="ru_ifrs_2268"/>
+        <field name="price_include" eval="1"/>		
+        <field name="type_tax_use">sale</field>
+        <field name="tag_ids" eval="[(6,0,[ref('tax_tag_sale_18')])]"/>
+    </record>
+
+</openerp>
