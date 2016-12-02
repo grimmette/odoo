@@ -5,7 +5,7 @@
 {
     'name': 'HS Code',
     'version': '1.0',
-    'category': 'Stock',
+    'category': 'Warehouse',
     'summary': 'Add field HS Code',
     'description': """
 Add field HS Code.
