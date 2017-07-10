@@ -16,6 +16,7 @@ This is the base module to manage the Chart of Accounts for Hong Kong in Odoo.
     """,
     'author': 'GRIMMETTE,LLC',
     'website': 'http://www.grimmette.com',
+    'support': 'info@grimmette.com',
     'depends': [
         'account',
         'base_vat',

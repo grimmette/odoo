@@ -14,6 +14,7 @@ Add field HS Code.
 """,
     'author': 'GRIMMETTE,LLC',
     'website': 'http://www.grimmette.com',
+    'support': 'info@grimmette.com',
     'depends': ['product'],
     'data': [
         'security/ir.model.access.csv',
