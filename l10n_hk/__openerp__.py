@@ -25,7 +25,7 @@ This is the base module to manage the Chart of Accounts for Hong Kong in Odoo.
         'data/account_chart_template.xml',
         'data/account_l10n_hk.xml',
         'data/account_tax_template.xml',
-	'data/account_chart_template.yml',	
+	    'data/account_chart_template.yml',	
         'security/ir.model.access.csv'
     ],
     'demo': [
