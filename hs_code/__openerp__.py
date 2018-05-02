@@ -7,6 +7,7 @@
     'version': '1.0',
     'category': 'Warehouse',
     'summary': 'Add field HS Code',
+    "license": "LGPL-3", 
     'description': """
 Add field HS Code.
 ==============================================================

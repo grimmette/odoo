@@ -8,6 +8,7 @@
     'version': '1.1',
     'summary': 'Codes and Full Names of Currencies ISO 4217',
     'category': 'Accounting & Finance',
+    "license": "LGPL-3", 
     'description': """
 Codes and full name of the currencies - ISO 4217.
 

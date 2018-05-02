@@ -7,6 +7,7 @@
     'version': '1.1',
     'summary': 'Hong Kong - Accounting',
     'category': 'Localization/Account Charts',
+    "license": "LGPL-3",     
     'description': """
 This is the base module to manage the Chart of Accounts for Hong Kong in Odoo.
 ==============================================================================

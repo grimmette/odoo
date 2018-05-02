@@ -8,6 +8,7 @@
     'version': '1.1',
     'summary': 'IFRS Chart of Accounts for Russia',
     'category': 'Localization/Account Charts',
+    "license": "LGPL-3",     
     'description': """
 This is the base module to manage the IFRS Chart of Accounts for Russia in Odoo.
 ==============================================================================
