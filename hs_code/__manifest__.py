@@ -16,6 +16,7 @@ Add field HS Code.
     'author': 'GRIMMETTE,LLC',
     'support': 'info@grimmette.com',
     'depends': ['product'],
+    'images': ['static/description/banner.png'],
     'data': [
         'security/ir.model.access.csv',
         'views/product_template_view.xml',
