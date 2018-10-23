@@ -7,6 +7,7 @@
     'version': '1.0',
     'category': 'Warehouse',
     'summary': 'Add field HS Code',
+    'license': "AGPL-3",
     'description': """
 Add field HS Code.
 ==============================================================
@@ -20,4 +21,5 @@ Add field HS Code.
         'views/product_template_view.xml',
     ],
     'installable': True,
+    
 }
