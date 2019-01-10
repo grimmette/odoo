@@ -13,7 +13,7 @@
 Codes and full name of the currencies - ISO 4217.
 
     """,
-    'author': 'GRIMMETTE,LLC',
+    'author': 'GRIMMETTE',
     'website': 'http://www.grimmette.com',
     'support': 'info@grimmette.com',
     'images': ['static/description/icon.png'],    

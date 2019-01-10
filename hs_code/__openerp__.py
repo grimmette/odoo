@@ -13,7 +13,7 @@ Add field HS Code.
 ==============================================================
 
 """,
-    'author': 'GRIMMETTE,LLC',
+    'author': 'GRIMMETTE',
     'website': 'http://www.grimmette.com',
     'support': 'info@grimmette.com',
     'images': ['static/description/icon.png'],    

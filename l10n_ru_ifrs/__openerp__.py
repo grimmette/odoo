@@ -17,7 +17,7 @@ This is the IFRS Chart of Accounts for Russia Odoo localization and consists of:
     - IFRS Chart of Accounts
     - VAT tax structure
     """,
-    'author': 'GRIMMETTE,LLC',
+    'author': 'GRIMMETTE',
     'website': 'http://www.grimmette.com',
     'images': ['static/description/icon.png'],    
     'depends': [
